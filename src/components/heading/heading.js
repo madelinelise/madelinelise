@@ -1,4 +1,5 @@
 import React from "react";
+// import { ReactComponent as SVG } from '../../assets/test1.svg';
 import PropTypes from "prop-types";
 import "./heading.scss";
 
@@ -9,7 +10,14 @@ export const Heading = (props) => {
   const safeHeading = headingLevel ? headingLevel.toLowerCase() : "";
   const Title = validHeadingLevels.includes(safeHeading) ? safeHeading : "p";
 
-  return <Title className="heading">{title}</Title>;
+  return (
+    <>
+      <div className="heading__container">
+        {/* <SVG/> */}
+        <Title className="heading">{title}</Title>
+      </div>
+    </>
+  );
 };
 
 Heading.propTypes = {

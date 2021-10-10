@@ -1,18 +1,15 @@
 {
-  "bodyText": {
-    "description": "Hi, my name is Madeline and I am a developer with 6 years experience in web development, strategy, and design. My experience includes managing the planning, design and development for many projects from concept to implementation. I am looking for an opportunity to use this experience and lead in a senior position to share my experience and knowledge to set up my team for success."
-  },
   "heading": {
     "title": "A few favorite projects I've worked on",
     "headingLevel": "h1"
   },
   "project_items": [
-    { "title": "Scholar's Edge 529 ", "url": "https://scholarsedge529.com/" },
     {
       "title": "Be Well Work Well",
       "url": "https://www.pwc.com/us/en/about-us/purpose-and-values/well-being-learning-project.html"
     },
     { "title": "MagMutual", "url": "https://www.magmutual.com/" },
+    { "title": "Scholar's Edge 529 ", "url": "https://scholarsedge529.com/" },
     { "title": "NASDAQ", "url": "https://www.nasdaq.com/" },
     { "title": "Harvard College", "url": "https://college.harvard.edu/" },
     {
@@ -20,43 +17,19 @@
       "url": "https://andersonuniversity.edu/"
     },
     { "title": "Mediacurrent.com", "url": "https://www.mediacurrent.com/" },
-    {
-      "title": "Care.org",
-      "url": "https://www.care.org"
-    },
     { "title": "Shirely Ryan Ability Lab", "url": "https://www.sralab.org/" },
     { "title": "Penn State News", "url": "https://news.psu.edu/" },
     {
-      "title": "Rain distribution",
+      "title": "Rain Distribution",
       "url": "https://www.drupal.org/project/rain"
     },
     {
-      "title": "Collective Directory distribution",
+      "title": "Collective Directory Distribution",
       "url": "https://www.drupal.org/project/collective"
     },
     {
       "title": "Brand USA",
       "url": "https://www.visittheusa.com/"
-    },
-    {
-      "title": "Parktables.com",
-      "url": "https://www.parktables.com/"
-    },
-    {
-      "title": "Asset Intertech",
-      "url": "https://www.asset-intertech.com/"
-    },
-    {
-      "title": "Volusia County Schools",
-      "url": "https://www.vcsedu.org/"
-    },
-    {
-      "title": "City College of New York",
-      "url": "https://www.ccny.cuny.edu/"
-    },
-    {
-      "title": "Theming with Components - Video Series",
-      "url": "https://www.youtube.com/playlist?list=PLu-MxhbnjI9oEF9uR59Sq66_7Pf4guwG1"
     }
   ],
   "heading_exp": {
@@ -66,7 +39,7 @@
   "jobs": [
     {
       "dates": "June 2019 - Present",
-      "title": "Developer",
+      "title": "Senior Developer",
       "company": "Mediacurrent",
       "description": "At Mediacurrent I get the opportunity to support and lead on a variety of projects with different technology stacks such as React, Gatsby, Drupal, etc. With my experience, I also get a great opportunity to mentor my team to help them grow professionally and with their technical skills."
     },
@@ -74,28 +47,19 @@
       "dates": "Dec 2016 - June 2019",
       "title": "Supervisor, Web Services",
       "company": "Volusia County Schools",
-      "description": "At VCS I led the Web Services team. Our disctrict website had 128 subsites and about 70 school sites! My favorite project here was planning and leading the district website redesign for vscedu.org from SharePoint to Drupal"
+      "description": "At VCS I led the Web Services team. Our district website had 128 subsites and about 70 school sites! My favorite project here was planning and leading the district website redesign for vscedu.org."
     },
     {
       "dates": "Dec 2014 - Dec 2016",
       "title": "Manager, Web Content",
       "company": "Furniture Leisure",
       "description": "At Furniture Leisure I was a content manager and strategist for 5 eCommerce websites. Oversaw the relaunch of 2 eCommerce websites to an upgraded system, new design, and revamped content for SEO."
-    }
-  ],
-
-  "cta_items": [
-    {
-      "stat": "6+",
-      "description": "Years of experience"
     },
     {
-      "stat": "AA",
-      "description": "Associates of Arts"
-    },
-    {
-      "stat": "BSIT",
-      "description": "Bachelor's of Science I.T"
+      "dates": "Jan 2014 - Jan 2018",
+      "title": "Bachelor's in Science - Information Technology",
+      "company": "Daytona State",
+      "description": "Bachelor's in Science where I learned the core concepts of web development."
     }
   ],
   "heading_skills": {
@@ -120,16 +84,39 @@
     { "title": "Jest" }
   ],
   "contact": {
-    "image": "https://media-exp1.licdn.com/dms/image/C5603AQGdO27Y2MeesQ/profile-displayphoto-shrink_200_200/0/1601065169363?e=1613606400&v=beta&t=3iMZtJNvgk5M8AspbWIaadrNNgOAsSilXW3fqGJ8sOI",
-    "items": [
+     "description": "Senior Developer with 8 years experience in managing the development of projects from concept to implementation.",
+     "ctas": [
       {
-        "title": "madelinelise@gmail.com",
-        "url": "mailto:madelinelise@gmail.com"
+        "title": "Contact Me",
+        "url": "mailto:madelinelise@gmail.com",
+        "type": "primary"
       },
       {
-        "title": "386-302-9853",
-        "url": "386-302-9853"
+        "title": "Download Resume",
+        "url": "/mj-resume.pdf"
       }
     ]
-  }
+  },
+  "heading_thought": {
+    "title": "Thought Leadership",
+    "headingLevel": "h2"
+  },
+  "thought_items": [
+    {
+      "title": "Theming with Components - Video Series",
+      "url": "https://www.youtube.com/playlist?list=PLu-MxhbnjI9oEF9uR59Sq66_7Pf4guwG1"
+    },
+    {
+      "title": "When Drupal Met Gatsby, an Early Adopters Case Study",
+      "url": "https://www.youtube.com/watch?v=t7kQzh6sBbE"
+    },
+    {
+      "title": "Real World Decoupled Drupal & Gatsby",
+      "url": "https://www.mediacurrent.com/videos/webinar-decoupled-drupal-and-gatsby-real-world"
+    },
+    {
+      "title": "Employee Spotlight - Madeline Jensen",
+      "url": "https://www.mediacurrent.com/blog/employee-spotlight-madeline-jensen"
+    }
+  ]
 }

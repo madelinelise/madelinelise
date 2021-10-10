@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 @mixin font-montserrat {
   font-family: 'Montserrat', sans-serif;
@@ -18,4 +19,9 @@
 @mixin font-open-sans-bold {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+}
+
+@mixin font-cursive {
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: normal;
 }

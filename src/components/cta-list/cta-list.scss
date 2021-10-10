@@ -9,6 +9,6 @@
   @include breakpoint($bp-md) {
     flex-direction: row;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
 }

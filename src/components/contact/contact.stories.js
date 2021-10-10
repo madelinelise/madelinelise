@@ -7,6 +7,6 @@ export default {
   component: Contact,
 };
 
-const Template = (args) => <Contact image={data.image} items={data.items} />;
+const Template = (args) => <Contact ctas={data.ctas} description={data.description} />;
 
 export const ContactStory = Template.bind({});

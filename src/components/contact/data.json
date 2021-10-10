@@ -1,13 +1,15 @@
 {
-  "image": "https://via.placeholder.com/200x200.png",
-  "items": [
+  "description": "Senior Developer with 8 years experience in managing the development of projects from concept to implementation.",
+  "ctas": [
     {
-      "title": "madelinelise@gmail.com",
-      "url": "mailto:madelinelise@gmail.com"
-    },
+      "title": "Download Resume",
+      "url": "#",
+      "type": "primary"
+    },    
     {
-      "title": "386-302-9853",
-      "url": "386-302-9853"
+      "title": "Contact Me",
+      "url": "#",
+      "type": ""
     }
   ]
 }
