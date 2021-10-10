@@ -1,59 +1,36 @@
 @import "./../../style.scss";
 
 .contact {
-  border-top: 1px solid $color-charcoal;
-  border-bottom: 1px solid $color-charcoal;
   display: flex;
-  padding: 95px 0 80px;
-  margin-bottom: 60px;
   justify-content: center;
+  flex-direction: column;
 
-   li {
-    margin-left: 30px;
+  h1 {
     margin-bottom: 15px;
-    position: relative;
-
-    a {
-      color: $color-charcoal;
-    }
-
-    &::before {
-      content: "\2014";
-      display: block;
-      position: absolute;
-      left: -30px;
-    }
-
-    &:hover{
-      &::before {
-        color: $color-primary;
-        font-weight: bold;
-      }
-    }
   }
 }
 
-.contact--left {
-  position: relative;
-
-  img {
-    position: relative;
-    z-index: 2;
-  }
-
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    background-color: #4e4e60;
-    width: 200px;
-    height: 200px;
-    top: -15px;
-    right: -15px;
-    z-index: 1;
-  }
+.contact__heading {
+  @include font-montserrat;
+  font-size: 2rem;
 }
 
-.contact--right {
-  margin-left: 80px;
+.contact__initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include font-cursive;
+  background-color: $color-primary;
+  padding: 40px;
+  border-radius: 50%;
+  color: $color-secondary;
+  font-size: 6.5rem;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.contact__ctas {
+  display: flex;
 }

@@ -1,36 +1,36 @@
 @import "./../../style.scss";
 
 .button {
-  font-weight: 700;
   border: 0;
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-}
-
-.button--primary {
-  color: $color-white;
-  background-color: $color-primary;
-}
-
-.button--secondary {
   color: $color-charcoal;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.6s;
+  text-align: center;
+
+  & + .button {
+    margin-left: 30px;
+  }
+
+  &:hover {
+    background-color: $color-primary;
+    color: $color-white;
+  }
 }
 
-.button--small {
-  font-size: 12px;
-  padding: 10px 16px;
-}
+.button--primary {
+  background-color: $color-primary;
+  color: $color-white;
 
-.button--medium {
-  font-size: 14px;
-  padding: 11px 20px;
-}
-
-.button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+  &:hover {
+    background-color: $color-white;
+    color: $color-primary;
+  }
 }

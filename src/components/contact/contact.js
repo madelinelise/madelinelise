@@ -2,26 +2,35 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./contact.scss";
 import { Heading } from "../heading/heading";
+import { Button } from "../button/button";
 
 export const Contact = (props) => {
-  const { image, items } = props;
-  const ContactItems = items.map((item) => (
-    <li>
-      {item.url ? (
-        <a href={`${item.url}`}>{item.title}</a>
+  const { description, ctas } = props;
+  const ctaItems = ctas.map((cta) => (
+    <>
+      {cta.url ? (
+        <a className={["button", `button--${cta.type}`].join(" ")} target="_blank" href={`${cta.url}`}>{cta.title}</a>
       ) : (
-        <span>{item.title}</span>
+        <Button label={cta.title} />
       )}
-    </li>
+    </>
   ));
   return (
-    <div class="contact">
-      <div class="contact--left">
-        <img src={`${image}`} alt="Madeline Jensen"/>
+    <div className="contact">
+      <div className="contact__item">
+        <div className="contact__initials">
+          mj
+        </div>
+        <h1 className="contact__heading"> Madeline Jensen </h1>
+        {/* <Heading title={"Madeline Jensen"} headingLevel={"h1"} /> */}
       </div>
-      <div class="contact--right">
-        <Heading title={"Reach Out"} headingLevel={"h2"} />
-        <ul>{ContactItems}</ul>
+      <div className="contact__item">
+        <div className="contact__description">
+          <p> {description} </p>
+        </div>
+        <div className="contact__ctas">
+          { ctaItems }
+        </div>
       </div>
     </div>
   );

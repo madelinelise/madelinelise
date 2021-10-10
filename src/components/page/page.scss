@@ -1,13 +1,34 @@
 @import './../../style.scss';
 
 .page-layout {
-  background-color: $color-white;
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 50px;
-  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
 
-  @include breakpoint($bp-md) {
-    padding: 100px;
+  @include breakpoint($bp-lg) {
+    flex-direction: row;
+  }
+
+  svg {
+    position: absolute;
+  }
+}
+
+.page-layout__column--1 {
+  background-color: $color-secondary;
+  padding: 50px;
+
+  @include breakpoint($bp-lg) {
+    height: 100%;
+    position: fixed;
+    width: 25%;
+  }
+}
+
+.page-layout__column--2 {
+
+  padding: 50px;
+
+  @include breakpoint($bp-lg) {
+    margin-left: calc(25% + 100px);
   }
 }
