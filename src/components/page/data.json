@@ -5,6 +5,10 @@
   },
   "project_items": [
     {
+      "title": "SEI Employee Platform",
+      "url": "https://seic.com/"
+    },
+    {
       "title": "Be Well Work Well",
       "url": "https://www.pwc.com/us/en/about-us/purpose-and-values/well-being-learning-project.html"
     },
@@ -12,10 +16,6 @@
     { "title": "Scholar's Edge 529 ", "url": "https://scholarsedge529.com/" },
     { "title": "NASDAQ", "url": "https://www.nasdaq.com/" },
     { "title": "Harvard College", "url": "https://college.harvard.edu/" },
-    {
-      "title": "Anderson University",
-      "url": "https://andersonuniversity.edu/"
-    },
     { "title": "Mediacurrent.com", "url": "https://www.mediacurrent.com/" },
     { "title": "Shirely Ryan Ability Lab", "url": "https://www.sralab.org/" },
     { "title": "Penn State News", "url": "https://news.psu.edu/" },
@@ -38,16 +38,22 @@
   },
   "jobs": [
     {
+      "dates": "November 2021 - Present",
+      "title": "Engineering Manager",
+      "company": "O3 World",
+      "description": "As an Engineering Manager, I lead the Engineering department forward by balancing the best interest of each individual on our team, the needs of each of our projects, and streamlining our department processes. I am invested in each person's growth - which involves having honest conversations about their goals and having a hands on approach for areas of growth."
+    },
+    {
       "dates": "June 2019 - Present",
       "title": "Senior Developer",
       "company": "Mediacurrent",
-      "description": "At Mediacurrent I get the opportunity to support and lead on a variety of projects with different technology stacks such as React, Gatsby, Drupal, etc. With my experience, I also get a great opportunity to mentor my team to help them grow professionally and with their technical skills."
+      "description": "As a Senior Developer I led on a variety of projects with a various technology stacks such as React, Gatsby, Drupal, etc. With my experience, I also had a great opportunity to start mentorship - as well as internship programs to help our team grow both professionally and with their technical skills."
     },
     {
       "dates": "Dec 2016 - June 2019",
       "title": "Supervisor, Web Services",
       "company": "Volusia County Schools",
-      "description": "At VCS I led the Web Services team. Our district website had 128 subsites and about 70 school sites! My favorite project here was planning and leading the district website redesign for vscedu.org."
+      "description": "At VCS I led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
     },
     {
       "dates": "Dec 2014 - Dec 2016",
@@ -63,28 +69,28 @@
     }
   ],
   "heading_skills": {
-    "title": "On a typical day I work with",
+    "title": "A Mix of Management + Tech Skills",
     "headingLevel": "h2"
   },
   "skill_items": [
-    { "title": "React" },
-    { "title": "Javascript" },
-    { "title": "SASS/SCSS" },
-    { "title": "HTML5" },
-    { "title": "GraphQL" },
-    { "title": "Gatsby" },
-    { "title": "PHP" },
-    { "title": "Twig" },
+    { "title": "Utilization & Forecasting" },
+    { "title": "Architect & Business Solutions" },
+    { "title": "Goal Planning & Tracking" },
+    { "title": "Hiring & Interviewing" },
+    { "title": "Regular 1:1s" },
     { "title": "Flexbox & Grid" },
     { "title": "Drupal 7/8/9" },
     { "title": "Pattern Lab / Storybook" },
     { "title": "Node / npm / nvm" },
     { "title": "Git" },
-    { "title": "Cypress" },
-    { "title": "Jest" }
+    { "title": "React" },
+    { "title": "Javascript" },
+    { "title": "SASS/SCSS" },
+    { "title": "Gatsby" },
+    { "title": "Twig" }
   ],
   "contact": {
-     "description": "Senior Developer with 8 years experience in managing the development of projects from concept to implementation.",
+     "description": "Engineering Manager with 8 years experience in leading teams & developing projects from concept to implementation.",
      "ctas": [
       {
         "title": "Contact Me",
@@ -115,8 +121,12 @@
       "url": "https://www.mediacurrent.com/videos/webinar-decoupled-drupal-and-gatsby-real-world"
     },
     {
-      "title": "Employee Spotlight - Madeline Jensen",
-      "url": "https://www.mediacurrent.com/blog/employee-spotlight-madeline-jensen"
+      "title": "Meet the Team - Madeline Jensen",
+      "url": "https://www.o3world.com/news/meet-the-team-madeline-jensen/"
+    },
+    {
+      "title": "STEM Goes Red - Mentorship Panel",
+      "url": "https://events.bizzabo.com/351393/home"
     }
   ]
 }
