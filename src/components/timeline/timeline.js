@@ -1,5 +1,6 @@
 import React from "react";
 import "./timeline.scss";
+import { List } from "../list/list";
 
 export const Timeline = (props) => {
   const { jobs } = props;
@@ -12,7 +13,7 @@ export const Timeline = (props) => {
       <div className="timeline-content">
         <h3 className="timeline-title">{job.title}</h3>
         <h3 className="timeline-company">{job.company}</h3>
-        <p>{job.description}</p>
+        { job.descs && <List items={job.descs} /> }
       </div>
     </li>
   ));

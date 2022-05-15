@@ -6,6 +6,15 @@
   margin-bottom: 50px;
   padding: 0;
   width: 100%;
+
+  .list {
+    column-count: 1;
+    margin-bottom: 0;
+
+    li {
+      width: 100%;
+    }
+  }
 }
 
 .timeline-item {
@@ -36,7 +45,7 @@
   width: 15px;
 
   &:before {
-    background: $color-primary;
+    background: $color-comp;
     border: 3px solid transparent;
     border-radius: 100%;
     content: '';
@@ -69,11 +78,12 @@
 
 .timeline-item:not(.period):hover .timeline-marker:before {
   background: transparent;
-  border: 3px solid $color-primary;
+  border: 3px solid $color-comp;
 }
 
 .timeline-content {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  
   p:last-child {
     margin-bottom: 0;
   }

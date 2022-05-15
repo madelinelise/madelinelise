@@ -12,13 +12,34 @@
       "title": "Be Well Work Well",
       "url": "https://www.pwc.com/us/en/about-us/purpose-and-values/well-being-learning-project.html"
     },
-    { "title": "MagMutual", "url": "https://www.magmutual.com/" },
-    { "title": "Scholar's Edge 529 ", "url": "https://scholarsedge529.com/" },
-    { "title": "NASDAQ", "url": "https://www.nasdaq.com/" },
-    { "title": "Harvard College", "url": "https://college.harvard.edu/" },
-    { "title": "Mediacurrent.com", "url": "https://www.mediacurrent.com/" },
-    { "title": "Shirely Ryan Ability Lab", "url": "https://www.sralab.org/" },
-    { "title": "Penn State News", "url": "https://news.psu.edu/" },
+    {
+      "title": "MagMutual",
+      "url": "https://www.magmutual.com/"
+    },
+    {
+      "title": "Scholar's Edge 529 ",
+      "url": "https://scholarsedge529.com/"
+    },
+    {
+      "title": "NASDAQ",
+      "url": "https://www.nasdaq.com/"
+    },
+    {
+      "title": "Harvard College",
+      "url": "https://college.harvard.edu/"
+    },
+    {
+      "title": "Mediacurrent.com",
+      "url": "https://www.mediacurrent.com/"
+    },
+    {
+      "title": "Shirely Ryan Ability Lab",
+      "url": "https://www.sralab.org/"
+    },
+    {
+      "title": "Penn State News",
+      "url": "https://news.psu.edu/"
+    },
     {
       "title": "Rain Distribution",
       "url": "https://www.drupal.org/project/rain"
@@ -41,31 +62,58 @@
       "dates": "November 2021 - Present",
       "title": "Engineering Manager",
       "company": "O3 World",
-      "description": "As an Engineering Manager, I lead the Engineering department forward by balancing the best interest of each individual on our team, the needs of each of our projects, and streamlining our department processes. I am invested in each person's growth - which involves having honest conversations about their goals and having a hands on approach for areas of growth."
+      "descs": [
+        {
+          "title": "Manage the professional growth of 9 direct reports including senior, midlevel, and junior engineers."
+        },
+        {
+          "title": "Work with project managers and engineers to improve ulitization and budget on projects. Contibuted to an increase of 30% billable utilization by aligning engineers with the right workload."
+        },
+        {
+          "title": "Engineering lead for a $1.3 million a year budgeted project. Responsibilies include managing a release cadence, performing code reveiws, defining technical requirements and acceptance criteria, and ensuring that I remove any barriers if our team becomes blocked."
+        }
+      ]
     },
     {
-      "dates": "June 2019 - Present",
+      "dates": "June 2019 - Nov 2019",
       "title": "Senior Developer",
       "company": "Mediacurrent",
-      "description": "As a Senior Developer I led on a variety of projects with a various technology stacks such as React, Gatsby, Drupal, etc. With my experience, I also had a great opportunity to start mentorship - as well as internship programs to help our team grow both professionally and with their technical skills."
+      "descs": [
+        {
+          "title": "Lead developer on projects with various technology stacks including React, Gatsby & Drupal."
+        },
+        {
+          "title": "Performed discovery & architecture planning for new projects, including technology stacks based on client needs, content types, modules, and a resourcing plan to execute."
+        },
+        {
+          "title": "Contributor to mentorship programs and creating training materials, orientation material, and overall team growth."
+        }
+      ]
     },
     {
       "dates": "Dec 2016 - June 2019",
       "title": "Supervisor, Web Services",
       "company": "Volusia County Schools",
-      "description": "At VCS I led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
+      "descs": [
+        {
+          "title": "Led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
+        }
+      ]
     },
     {
       "dates": "Dec 2014 - Dec 2016",
       "title": "Manager, Web Content",
       "company": "Furniture Leisure",
-      "description": "At Furniture Leisure I was a content manager and strategist for 5 eCommerce websites. Oversaw the relaunch of 2 eCommerce websites to an upgraded system, new design, and revamped content for SEO."
+      "descs": [
+        {
+          "title": "Content manager and strategist for 5 eCommerce websites. Oversaw the relaunch of 2 eCommerce websites to an upgraded system, new design, and improved content for SEO."
+        }
+      ]
     },
     {
       "dates": "Jan 2014 - Jan 2018",
       "title": "Bachelor's in Science - Information Technology",
-      "company": "Daytona State",
-      "description": "Bachelor's in Science where I learned the core concepts of web development."
+      "company": "Daytona State College"
     }
   ],
   "heading_skills": {
@@ -73,25 +121,64 @@
     "headingLevel": "h2"
   },
   "skill_items": [
-    { "title": "Utilization & Forecasting" },
-    { "title": "Architect & Business Solutions" },
-    { "title": "Goal Planning & Tracking" },
-    { "title": "Hiring & Interviewing" },
-    { "title": "Regular 1:1s" },
-    { "title": "Flexbox & Grid" },
-    { "title": "Drupal 7/8/9" },
-    { "title": "Pattern Lab / Storybook" },
-    { "title": "Node / npm / nvm" },
-    { "title": "Git" },
-    { "title": "React" },
-    { "title": "Javascript" },
-    { "title": "SASS/SCSS" },
-    { "title": "Gatsby" },
-    { "title": "Twig" }
+    {
+      "title": "Component Based Dev."
+    },
+    {
+      "title": "Pattern Lab / Storybook"
+    },
+    {
+      "title": "Drupal 7 / 8 / 9"
+    },
+    {
+      "title": "Node / npm / nvm"
+    },
+    {
+      "title": "Web Accessibility"
+    },  
+    {
+      "title": "Flexbox / Grid"
+    },
+    {
+      "title": "Utilization & Forecasting"
+    },
+    {
+      "title": "Process Improvement"
+    },
+    {
+      "title": "Scrum / Agile"
+    },
+    {
+      "title": "Release Management"
+    },
+    {
+      "title": "Hiring & Interviewing"
+    },
+    {
+      "title": "Solutions Architecting"
+    },
+    {
+      "title": "React"
+    },
+    {
+      "title": "Javascript"
+    },
+    {
+      "title": "SASS / SCSS"
+    },
+    {
+      "title": "Gatsby"
+    },
+    {
+      "title": "GraphQL"
+    },
+    {
+      "title": "Twig"
+    }
   ],
   "contact": {
-     "description": "Engineering Manager with 8 years experience in leading teams & developing projects from concept to implementation.",
-     "ctas": [
+    "description": "Engineering Manager with 8 years experience in leading teams & developing projects from concept to implementation.",
+    "ctas": [
       {
         "title": "Contact Me",
         "url": "mailto:madelinelise@gmail.com",
