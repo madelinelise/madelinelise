@@ -2,9 +2,8 @@ import React from "react";
 import data from "./data.json";
 import "./page.scss";
 import { Heading } from "../heading/heading";
-import { BodyText } from "../body-text/body-text";
 import { List } from "../list/list";
-import { CTAlist } from "../cta-list/cta-list";
+import { LogoList } from "../logo-list/logo-list";
 import { Timeline } from "../timeline/timeline";
 import { Contact } from "../contact/contact";
 
@@ -26,9 +25,14 @@ export const Page = () => (
         <Timeline jobs={data.jobs} />
         <Heading
           title={data.heading.title}
-          headingLevel={data.heading.headingLevel}
+          headingLevel={data.heading_skills.headingLevel}
         />
         <List items={data.project_items} />
+        <Heading
+          title={data.heading_logos.title}
+          headingLevel={data.heading.headingLevel}
+        />
+        <LogoList items={data.logo_items} />
         <Heading
           title={data.heading_skills.title}
           headingLevel={data.heading_skills.headingLevel}
@@ -38,7 +42,9 @@ export const Page = () => (
           title={data.heading_thought.title}
           headingLevel={data.heading_thought.headingLevel}
         />
-        <List items={data.thought_items} />
+        <span className="thought-list">
+          <List items={data.thought_items} />
+        </span>
       </div>
     </div>
   </>

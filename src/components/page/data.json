@@ -116,8 +116,44 @@
       "company": "Daytona State College"
     }
   ],
+  "heading_logos": {
+    "title": "Some organizations I've worked with",
+    "headingLevel": "h2"
+  },
+  "logo_items": [
+    {
+      "title": "sei",
+      "url": "#",
+      "img": "/logos/sei.jpg"
+    },
+    {
+      "title": "AIM",
+      "url": "#",
+      "img": "/logos/aim.png"
+    },
+    {
+      "title": "NASDAQ",
+      "url": "#",
+      "img": "/logos/nasdaq.png"
+    },
+    {
+      "title": "Harvard",
+      "url": "#",
+      "img": "/logos/harvard.png"
+    },
+    {
+      "title": "PWC",
+      "url": "#",
+      "img": "/logos/pwc.png"
+    },
+    {
+      "title": "Principal",
+      "url": "#",
+      "img": "/logos/principal.png"
+    }
+  ],
   "heading_skills": {
-    "title": "A Mix of Management + Tech Skills",
+    "title": "A mix of management + tech skills",
     "headingLevel": "h2"
   },
   "skill_items": [
@@ -135,7 +171,7 @@
     },
     {
       "title": "Web Accessibility"
-    },  
+    },
     {
       "title": "Flexbox / Grid"
     },
@@ -191,28 +227,28 @@
     ]
   },
   "heading_thought": {
-    "title": "Thought Leadership",
+    "title": "Thought leadership",
     "headingLevel": "h2"
   },
   "thought_items": [
     {
-      "title": "Theming with Components - Video Series",
+      "title": "YouTube: Theming with Components - Video Series",
       "url": "https://www.youtube.com/playlist?list=PLu-MxhbnjI9oEF9uR59Sq66_7Pf4guwG1"
     },
     {
-      "title": "When Drupal Met Gatsby, an Early Adopters Case Study",
+      "title": "Webinar: When Drupal Met Gatsby, an Early Adopters Case Study",
       "url": "https://www.youtube.com/watch?v=t7kQzh6sBbE"
     },
     {
-      "title": "Real World Decoupled Drupal & Gatsby",
+      "title": "Webinar: Real World Decoupled Drupal & Gatsby",
       "url": "https://www.mediacurrent.com/videos/webinar-decoupled-drupal-and-gatsby-real-world"
     },
     {
-      "title": "Meet the Team - Madeline Jensen",
+      "title": "Article: Meet the Team - Madeline Jensen",
       "url": "https://www.o3world.com/news/meet-the-team-madeline-jensen/"
     },
     {
-      "title": "STEM Goes Red - Mentorship Panel",
+      "title": "Event: STEM Goes Red - Mentorship Panel",
       "url": "https://events.bizzabo.com/351393/home"
     }
   ]

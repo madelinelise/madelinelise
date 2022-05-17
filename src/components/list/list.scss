@@ -35,3 +35,12 @@
     }
   }
 }
+
+.thought-list {
+
+  .list {
+    @include breakpoint($bp-md) {
+      column-count: 1;
+    }
+  }
+}
