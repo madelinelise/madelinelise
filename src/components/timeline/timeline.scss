@@ -28,13 +28,13 @@
 }
 
 .timeline-info {
-  @include font-open-sans;
+  @include font-source-sans;
   font-size: 0.75rem;
   font-weight: 700;
   margin: 0 0 0.5em 0;
   text-transform: uppercase;
   white-space: nowrap;
-  color: $color-primary;
+  color: $color-shadow-mountain;
 }
 
 .timeline-marker {
@@ -45,7 +45,7 @@
   width: 15px;
 
   &:before {
-    background: $color-comp;
+    background: $color-carbon-fiber;
     border: 3px solid transparent;
     border-radius: 100%;
     content: '';
@@ -78,7 +78,7 @@
 
 .timeline-item:not(.period):hover .timeline-marker:before {
   background: transparent;
-  border: 3px solid $color-comp;
+  border: 3px solid $color-carbon-fiber;
 }
 
 .timeline-content {

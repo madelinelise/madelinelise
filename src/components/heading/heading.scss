@@ -14,8 +14,10 @@
   background-repeat: no-repeat;
   background-position: left calc(-5px) bottom;
   background-size: 10%;
+  filter: grayscale(100%);
 
   &:nth-of-type(2n) {
     background-image: url("../../assets/brush_stroke_3.svg");
+    filter: grayscale(100%);
   }
 }

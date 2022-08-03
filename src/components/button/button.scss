@@ -1,15 +1,15 @@
 @import "./../../style.scss";
 
 .button {
+  @include font-montserrat;
   border: 0;
-  border-radius: 3em;
+  border-radius: 2.5em;
   cursor: pointer;
   display: inline-block;
   line-height: 1;
   color: $color-charcoal;
   background-color: transparent;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-  padding: 10px 20px;
+  padding: 8px 13px;
   text-decoration: none;
   text-transform: uppercase;
   transition: 0.6s;
@@ -20,13 +20,13 @@
   }
 
   &:hover {
-    background-color: $color-primary;
+    background-color: $color-carbon-fiber;
     color: $color-white;
   }
 }
 
 .button--primary {
-  background-color: $color-primary;
+  background-color: $color-carbon-fiber;
   color: $color-white;
 
   &:hover {

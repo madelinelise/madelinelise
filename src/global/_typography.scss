@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
 
 @mixin font-montserrat {
@@ -11,13 +11,13 @@
   font-weight: bold;
 }
 
-@mixin font-open-sans {
-  font-family: 'Open Sans', sans-serif;
+@mixin font-source-sans {
+  font-family: 'Source Sans', sans-serif;
   font-weight: normal;
 }
 
-@mixin font-open-sans-bold {
-  font-family: 'Open Sans', sans-serif;
+@mixin font-source-sans-bold {
+  font-family: 'Source Sans', sans-serif;
   font-weight: bold;
 }
 
