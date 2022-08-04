@@ -29,6 +29,11 @@
   height: 40px;
   margin-bottom: 25px;
   text-align: center;
+  transition: 0.8s;
+
+  &:hover {
+    background-color: $color-comp;
+  }
 }
 
 .contact__ctas {

@@ -10,14 +10,19 @@
 
 .heading__container {
   padding-bottom: 15px;
-  background-image: url("../../assets/brush_stroke_2.svg");
-  background-repeat: no-repeat;
-  background-position: left calc(-5px) bottom;
-  background-size: 10%;
-  filter: grayscale(100%);
+
+  @include breakpoint($bp-md) {
+    background-image: url("../../assets/brush_stroke_2.svg");
+    background-repeat: no-repeat;
+    background-position: left calc(-5px) bottom;
+    background-size: 10%;
+    filter: grayscale(100%);
+  }
 
   &:nth-of-type(2n) {
-    background-image: url("../../assets/brush_stroke_3.svg");
-    filter: grayscale(100%);
+    @include breakpoint($bp-md) {
+      background-image: url("../../assets/brush_stroke_3.svg");
+      filter: grayscale(100%);
+    }
   }
 }

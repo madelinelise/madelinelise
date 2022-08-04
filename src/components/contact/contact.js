@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./contact.scss";
-import { Heading } from "../heading/heading";
 import { Button } from "../button/button";
 
 export const Contact = (props) => {
@@ -29,7 +28,7 @@ export const Contact = (props) => {
           <p> {description} </p>
         </div>
         <div className="contact__ctas">
-          { ctaItems }
+          {ctaItems}
         </div>
       </div>
     </div>

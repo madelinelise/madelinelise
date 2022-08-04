@@ -1,8 +1,8 @@
 import React from "react";
 import { List } from "./logo-list";
 import data from "./data.json";
+import { LogoList } from "./logo-list";
 
-// This default export determines where you story goes in the story list
 export default {
   title: "Components/LogoList",
   component: List,
