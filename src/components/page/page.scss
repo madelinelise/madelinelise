@@ -14,7 +14,8 @@
 }
 
 .page-layout__column--1 {
-  background-color: $color-secondary;
+  background-color: $color-carbon-fiber;
+  color: $color-white;
   padding: 50px;
 
   @include breakpoint($bp-lg) {

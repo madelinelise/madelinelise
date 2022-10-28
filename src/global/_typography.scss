@@ -12,12 +12,13 @@
 }
 
 @mixin font-source-sans {
-  font-family: 'Source Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: normal;
+  font-size: 1.15rem;
 }
 
 @mixin font-source-sans-bold {
-  font-family: 'Source Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
 }
 
