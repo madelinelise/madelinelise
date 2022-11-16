@@ -3,9 +3,9 @@
 .button {
   @include font-montserrat;
   border: 0;
-  border-radius: 2.5em;
   cursor: pointer;
   display: inline-block;
+  border-radius: 2px;
   line-height: 1;
   color: $color-white;
   background-color: transparent;
@@ -27,11 +27,21 @@
 }
 
 .button--primary {
+  background-color: $color-carbon-fiber;
+  color: $color-white;
+
+  &:hover {
+    background-color: $color-comp;
+    color: $color-white;
+  }
+}
+
+.button--secondary {
   background-color: $color-comp;
   color: $color-white;
 
   &:hover {
-    background-color: #0b5c55;
+    background-color: $color-comp;
     color: $color-white;
   }
 }

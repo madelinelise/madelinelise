@@ -16,14 +16,15 @@
 }
 
 .contact__initials {
+  @include font-cursive;
   display: flex;
   align-items: center;
   justify-content: center;
-  @include font-cursive;
-  background-color: $color-white;
+  background-color: $color-carbon-fiber;
+  overflow: hidden;
   padding: 40px;
   border-radius: 50%;
-  color: $color-carbon-fiber;
+  color: $color-white;
   font-size: 6.5rem;
   width: 40px;
   height: 40px;

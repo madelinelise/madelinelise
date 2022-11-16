@@ -240,7 +240,8 @@
       },
       {
         "title": "Download Resume",
-        "url": "/madeline-jensen-resume.pdf"
+        "url": "/madeline-jensen-resume.pdf",
+        "type": "secondary"
       }
     ]
   },
