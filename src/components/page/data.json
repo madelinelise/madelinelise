@@ -1,4 +1,79 @@
 {
+  "contact": {
+    "description": "Engineering Manager with 9 years of experience in leading teams & developing software projects from concept to implementation.",
+    "ctas": [
+      {
+        "title": "Contact Me",
+        "url": "mailto:madelinelise@gmail.com",
+        "type": "primary"
+      },
+      {
+        "title": "Download Resume",
+        "url": "/madeline-jensen-resume.pdf",
+        "type": "secondary"
+      }
+    ]
+  },
+  "heading_exp": {
+    "title": "Experience",
+    "headingLevel": "h2"
+  },
+  "jobs": [
+    {
+      "dates": "November 2021 - Present",
+      "title": "Engineering Manager",
+      "company": "O3 World",
+      "descs": [
+        {
+          "title": "Manage the professional growth of 9 direct reports including senior, midlevel, and junior engineers."
+        },
+        {
+          "title": "Architect and oversee the development, release cycles, and team resourcing of enterprise software development projects."
+        },
+        {
+          "title": "Be a key player in implementing a solid engineering practice. This largely involves empowering and including my team in the ideation and solution process to determine what is best practice, what processes we want to implement, and what tools or partnerships to evaluate for our team."
+        }
+      ]
+    },
+    {
+      "dates": "June 2019 - Nov 2019",
+      "title": "Senior Developer",
+      "company": "Mediacurrent",
+      "descs": [
+        {
+          "title": "Lead developer for enterprise open-source projects using React, Gatsby & Drupal. Including performing discoveries for new builds, building out technical specifications, and leading the team through implementation."
+        },
+        {
+          "title": "Contributor to mentorship programs and creating training and orientation material, and invested in overall team growth."
+        }
+      ]
+    },
+    {
+      "dates": "Dec 2016 - June 2019",
+      "title": "Supervisor, Web Services",
+      "company": "Volusia County Schools",
+      "descs": [
+        {
+          "title": "Led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
+        }
+      ]
+    },
+    {
+      "dates": "Dec 2014 - Dec 2016",
+      "title": "Manager, Web Content",
+      "company": "Furniture Leisure",
+      "descs": [
+        {
+          "title": "Content manager and strategist for 5 eCommerce websites. Oversaw the relaunch of 2 eCommerce websites to an upgraded system, new design, and improved content for SEO."
+        }
+      ]
+    },
+    {
+      "dates": "Jan 2014 - Jan 2018",
+      "title": "Bachelor's in Science - Information Technology",
+      "company": "Daytona State College"
+    }
+  ],
   "heading": {
     "title": "A few favorite projects I've worked on",
     "headingLevel": "h1"
@@ -63,66 +138,6 @@
     {
       "title": "@o3world/generator-react-project",
       "url": "https://www.npmjs.com/package/@o3world/generator-react-project"
-    }
-  ],
-  "heading_exp": {
-    "title": "Experience",
-    "headingLevel": "h2"
-  },
-  "jobs": [
-    {
-      "dates": "November 2021 - Present",
-      "title": "Engineering Manager",
-      "company": "O3 World",
-      "descs": [
-        {
-          "title": "Manage the professional growth of 9 direct reports including senior, midlevel, and junior engineers."
-        },
-        {
-          "title": "Architect and oversee the development, release cycles, and team resourcing of enterprise software development projects."
-        },
-        {
-          "title": "Be a key player in implementing a solid engineering practice. This largely involves empowering and including my team in the ideation and solution process to determine what is best practice, what processes we want to implement, and what tools or partnerships to evaluate for our team."
-        }
-      ]
-    },
-    {
-      "dates": "June 2019 - Nov 2019",
-      "title": "Senior Developer",
-      "company": "Mediacurrent",
-      "descs": [
-        {
-          "title": "Lead developer for enterprise open-source projects using React, Gatsby & Drupal. Including performing discoveries for new builds, building out technical specifications, and leading the team through implementation."
-        },
-        {
-          "title": "Contributor to mentorship programs and creating training and orientation material, and invested in overall team growth."
-        }
-      ]
-    },
-    {
-      "dates": "Dec 2016 - June 2019",
-      "title": "Supervisor, Web Services",
-      "company": "Volusia County Schools",
-      "descs": [
-        {
-          "title": "Led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
-        }
-      ]
-    },
-    {
-      "dates": "Dec 2014 - Dec 2016",
-      "title": "Manager, Web Content",
-      "company": "Furniture Leisure",
-      "descs": [
-        {
-          "title": "Content manager and strategist for 5 eCommerce websites. Oversaw the relaunch of 2 eCommerce websites to an upgraded system, new design, and improved content for SEO."
-        }
-      ]
-    },
-    {
-      "dates": "Jan 2014 - Jan 2018",
-      "title": "Bachelor's in Science - Information Technology",
-      "company": "Daytona State College"
     }
   ],
   "heading_logos": {
@@ -230,21 +245,6 @@
       "title": "git"
     }
   ],
-  "contact": {
-    "description": "Engineering Manager with 8 years experience in leading teams & developing projects from concept to implementation.",
-    "ctas": [
-      {
-        "title": "Contact Me",
-        "url": "mailto:madelinelise@gmail.com",
-        "type": "primary"
-      },
-      {
-        "title": "Download Resume",
-        "url": "/madeline-jensen-resume.pdf",
-        "type": "secondary"
-      }
-    ]
-  },
   "heading_thought": {
     "title": "Thought leadership",
     "headingLevel": "h2"

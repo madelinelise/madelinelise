@@ -32,7 +32,6 @@
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  white-space: nowrap;
   color: $color-shadow-mountain;
   font-weight: bold;
 }
@@ -62,7 +61,7 @@
   &:after {
     content: '';
     width: 2px;
-    background: $color-lgray;
+    background: $color-pale-gray;
     display: block;
     position: absolute;
     top: 15px;
@@ -81,7 +80,7 @@
 .timeline-item:not(.period):hover {
 
   .timeline-marker:before {
-    background: $color-comp;
+    background: $color-madevergreen;
   }
 }
 
@@ -96,14 +95,14 @@
 .timeline-title {
   @include font-ubuntu-bold;
   display: inline;
-  background-color: $color-comp;
+  background-color: $color-madevergreen;
   color: $color-white;
   padding: 3px;
-  font-size: 1.115rem;
+  font-size: 1.25rem;
 }
 
 .timeline-company {
   @include font-ubuntu-bold;
-  margin-bottom: 5px;
+  color: $color-shadow-mountain;
   font-size: .875rem;
 }

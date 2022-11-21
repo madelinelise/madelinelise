@@ -3,26 +3,21 @@
 .heading {
   @include font-ubuntu-bold;
   margin-bottom: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: $color-charcoal;
+  font-size: 1.75rem;
+  color: $color-carbon-fiber;
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    background-color: $color-madevergreen;
+    bottom: -10px;
+    position: absolute;
+  }
 }
 
 .heading__container {
   padding-bottom: 15px;
-
-  @include breakpoint($bp-md) {
-    background-image: url("../../assets/brush_stroke_2.svg");
-    background-repeat: no-repeat;
-    background-position: left calc(-5px) bottom;
-    background-size: 10%;
-    filter: grayscale(100%);
-  }
-
-  &:nth-of-type(2n) {
-    @include breakpoint($bp-md) {
-      background-image: url("../../assets/brush_stroke_3.svg");
-      filter: grayscale(100%);
-    }
-  }
 }

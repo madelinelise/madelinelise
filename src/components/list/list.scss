@@ -17,7 +17,7 @@
     position: relative;
 
     a {
-      color: $color-charcoal;
+      color: $color-carbon-fiber;
     }
 
     &::before {
@@ -29,7 +29,7 @@
 
     &:hover{
       &::before {
-        color: $color-comp;
+        color: $color-madevergreen;
         font-weight: bolder;
       }
     }
