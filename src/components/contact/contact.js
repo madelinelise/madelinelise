@@ -17,9 +17,6 @@ export const Contact = (props) => {
   return (
     <div className="contact">
       <div className="contact__item">
-        <div className="contact__initials">
-          mj
-        </div>
         <h1 className="contact__heading"> Madeline Jensen </h1>
         {/* <Heading title={"Madeline Jensen"} headingLevel={"h1"} /> */}
       </div>

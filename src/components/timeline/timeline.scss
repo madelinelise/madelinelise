@@ -28,7 +28,7 @@
 }
 
 .timeline-info {
-  @include font-montserrat;
+  @include font-ubuntu-bold;
   font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -94,7 +94,7 @@
 }
 
 .timeline-title {
-  @include font-montserrat-bold;
+  @include font-ubuntu-bold;
   display: inline;
   background-color: $color-comp;
   color: $color-white;
@@ -103,7 +103,7 @@
 }
 
 .timeline-company {
-  @include font-montserrat;
+  @include font-ubuntu-bold;
   margin-bottom: 5px;
   font-size: .875rem;
 }

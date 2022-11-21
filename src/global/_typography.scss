@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
-@mixin font-montserrat {
-  font-family: 'Montserrat', sans-serif;
+@mixin font-ubuntu {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: normal;
 }
 
-@mixin font-montserrat-bold {
-  font-family: 'Montserrat', sans-serif;
+@mixin font-ubuntu-bold {
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
 }
 
@@ -20,9 +19,4 @@
 @mixin font-source-sans-bold {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-}
-
-@mixin font-cursive {
-  font-family: 'Cedarville Cursive', cursive;
-  font-weight: normal;
 }
