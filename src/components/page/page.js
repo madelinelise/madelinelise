@@ -24,15 +24,15 @@ export const Page = () => (
         />
         <Timeline jobs={data.jobs} />
         <Heading
-          title={data.heading.title}
-          headingLevel={data.heading_skills.headingLevel}
-        />
-        <List items={data.project_items} />
-        <Heading
           title={data.heading_logos.title}
           headingLevel={data.heading.headingLevel}
         />
         <LogoList items={data.logo_items} />
+        <Heading
+          title={data.heading.title}
+          headingLevel={data.heading_skills.headingLevel}
+        />
+        <List items={data.project_items} />
         <Heading
           title={data.heading_skills.title}
           headingLevel={data.heading_skills.headingLevel}

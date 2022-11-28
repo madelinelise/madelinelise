@@ -6,7 +6,7 @@ export const List = (props) => {
   const listItems = items.map((item) => (
     <li>
       {item.url ? (
-        <a href={`${item.url}`}>{item.title}</a>
+        <a href={`${item.url}`} target="_blank">{item.title}</a>
       ) : (
         <span>{item.title}</span>
       )}

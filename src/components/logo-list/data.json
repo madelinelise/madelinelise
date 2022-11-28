@@ -1,51 +1,34 @@
 {
-  "items": [
+  "logo_items": [
     {
-      "title": "Link 1",
-      "url": "#"
+      "title": "sei",
+      "url": "https://seic.com/",
+      "img": "/logos/sei.jpg"
     },
     {
-      "title": "Link 2",
-      "url": "#"
+      "title": "AIM",
+      "url": "https://alzimpact.org/",
+      "img": "/logos/aim.png"
     },
     {
-      "title": "Link 3",
-      "url": "#"
+      "title": "NASDAQ",
+      "url": "https://www.nasdaq.com/",
+      "img": "/logos/nasdaq.png"
     },
     {
-      "title": "Link 4",
-      "url": "#"
+      "title": "Harvard",
+      "url": "https://college.harvard.edu/",
+      "img": "/logos/harvard.png"
     },
     {
-      "title": "Link 5",
-      "url": "#"
+      "title": "PWC",
+      "url": "https://www.pwc.com/us/en/the-new-equation.html",
+      "img": "/logos/pwc.png"
     },
     {
-      "title": "Link 6",
-      "url": "#"
-    },
-    {
-      "title": "Link 7",
-      "url": "#"
-    },
-    {
-      "title": "Link 8",
-      "url": "#"
-    },
-    {
-      "title": "Link 9",
-      "url": "#"
-    },
-    {
-      "title": "Link 10",
-      "url": "#"
-    },
-    {
-      "title": "Link 11",
-      "url": "#"
-    },
-    {
-      "title": "Link 12"
+      "title": "Principal",
+      "url": "https://www.principal.com/",
+      "img": "/logos/principal.png"
     }
   ]
 }

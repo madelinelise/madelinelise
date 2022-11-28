@@ -8,7 +8,7 @@ export default {
   component: List,
 };
 
-const Template = (args) => <LogoList items={data.items} />;
+const Template = (args) => <LogoList items={data.logo_items} />;
 
 export const LogoListStory = Template.bind({});
 

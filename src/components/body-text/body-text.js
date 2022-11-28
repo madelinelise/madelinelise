@@ -4,7 +4,7 @@ import "./body-text.scss";
 
 export const BodyText = (props) => {
   const { description } = props;
-  return <p className="body-text">{description}</p>;
+  return <div dangerouslySetInnerHTML={{__html: description}}/>
 };
 
 BodyText.propTypes = {

@@ -25,13 +25,13 @@
       "company": "O3 World",
       "descs": [
         {
-          "title": "Manage the professional growth of 9 direct reports including senior, midlevel, and junior engineers."
+          "title": "Directly manage the professional growth (and advocate) for engineers with a wide range of seniority."
         },
         {
-          "title": "Architect and oversee the development, release cycles, and team resourcing of enterprise software development projects."
+          "title": "Partner with product, design, and project management teams to architect and oversee the development, release cycles, and team resourcing of enterprise software development projects."
         },
         {
-          "title": "Be a key player in implementing a solid engineering practice. This largely involves empowering and including my team in the ideation and solution process to determine what is best practice, what processes we want to implement, and what tools or partnerships to evaluate for our team."
+          "title": "Be a key player in implementing a solid engineering practice. This largely involves empowering my team to be part of the solution process to determine what is best practice and what tools to evaluate for our projects."
         }
       ]
     },
@@ -44,7 +44,7 @@
           "title": "Lead developer for enterprise open-source projects using React, Gatsby & Drupal. Including performing discoveries for new builds, building out technical specifications, and leading the team through implementation."
         },
         {
-          "title": "Contributor to mentorship programs and creating training and orientation material, and invested in overall team growth."
+          "title": "Facilitated learning and growth opportunities for the team by creating training, mentorship and internship programs."
         }
       ]
     },
@@ -54,7 +54,7 @@
       "company": "Volusia County Schools",
       "descs": [
         {
-          "title": "Led the Web Services team that was responsible for all web properties for the school district including the redesign of 70 school websites and a district website including over 100 department subsites."
+          "title": "Directly managed the growth of each member of the web services team and all web properties for the school district, including the redesign of 70 school websites and a district website."
         }
       ]
     },
@@ -80,10 +80,6 @@
   },
   "project_items": [
     {
-      "title": "SEI Employee Platform",
-      "url": "https://seic.com/"
-    },
-    {
       "title": "Be Well Work Well",
       "url": "https://www.pwc.com/us/en/about-us/purpose-and-values/well-being-learning-project.html"
     },
@@ -104,24 +100,24 @@
       "url": "https://college.harvard.edu/"
     },
     {
-      "title": "Mediacurrent.com",
-      "url": "https://www.mediacurrent.com/"
-    },
-    {
       "title": "Shirely Ryan Ability Lab",
       "url": "https://www.sralab.org/"
     },
     {
-      "title": "TMNAS Underwriting Tool",
-      "url": "https://tmnas.com/"
+      "title": "SEI Employee Platform",
+      "url": "https://seic.com/"
+    },
+    {
+      "title": "Penn State News",
+      "url": "https://news.psu.edu/"
     },
     {
       "title": "Brand USA",
       "url": "https://www.visittheusa.com/"
     },
     {
-      "title": "Penn State News",
-      "url": "https://news.psu.edu/"
+      "title": "Vertex",
+      "url": "https://www.vertexinc.com/"
     },
     {
       "title": "Rain Distribution",
@@ -147,32 +143,32 @@
   "logo_items": [
     {
       "title": "sei",
-      "url": "#",
+      "url": "https://seic.com/",
       "img": "/logos/sei.jpg"
     },
     {
       "title": "AIM",
-      "url": "#",
+      "url": "https://alzimpact.org/",
       "img": "/logos/aim.png"
     },
     {
       "title": "NASDAQ",
-      "url": "#",
+      "url": "https://www.nasdaq.com/",
       "img": "/logos/nasdaq.png"
     },
     {
       "title": "Harvard",
-      "url": "#",
+      "url": "https://college.harvard.edu/",
       "img": "/logos/harvard.png"
     },
     {
       "title": "PWC",
-      "url": "#",
+      "url": "https://www.pwc.com/us/en/the-new-equation.html",
       "img": "/logos/pwc.png"
     },
     {
       "title": "Principal",
-      "url": "#",
+      "url": "https://www.principal.com/",
       "img": "/logos/principal.png"
     }
   ],
