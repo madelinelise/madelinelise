@@ -14,10 +14,6 @@
       }
     ]
   },
-  "heading_exp": {
-    "title": "Experience",
-    "headingLevel": "h2"
-  },
   "jobs": [
     {
       "dates": "November 2021 - Present",
@@ -74,10 +70,6 @@
       "company": "Daytona State College"
     }
   ],
-  "heading": {
-    "title": "A few favorite projects I've worked on",
-    "headingLevel": "h1"
-  },
   "project_items": [
     {
       "title": "Be Well Work Well",
@@ -136,10 +128,6 @@
       "url": "https://www.npmjs.com/package/@o3world/generator-react-project"
     }
   ],
-  "heading_logos": {
-    "title": "Some organizations I've worked with",
-    "headingLevel": "h2"
-  },
   "logo_items": [
     {
       "title": "sei",
@@ -172,79 +160,76 @@
       "img": "/logos/principal.png"
     }
   ],
-  "heading_skills": {
-    "title": "A mix of management + tech skills",
-    "headingLevel": "h2"
-  },
-  "skill_items": [
+  "mng_skill_items": [
     {
-      "title": "Component based dev."
+      "title": "Hiring + talent retention"
     },
     {
-      "title": "Release management"
+      "title": "Forecasting + resource planning"
     },
     {
-      "title": "Hiring & interviewing"
+      "title": "1:1s, performance reviews, PIPs"
     },
     {
-      "title": "Solutions architecture"
+      "title": "Cross dept. communication"
     },
     {
-      "title": "Pattern Lab / Storybook"
+      "title": "Continual improvement"
     },
     {
-      "title": "Utilization & forecasting"
+      "title": "Scrum + Agile practices"
     },
     {
-      "title": "Drupal 7 / 8 / 9"
+      "title": "Engineering practice development"
     },
+    {
+      "title": "Pre-sales / project estimations"
+    }
+  ],
+  "tech_skill_items": [
     {
       "title": "React"
-    },
-    {
-      "title": "Node / npm / nvm"
-    },
-    {
-      "title": "Web accessibility"
-    },
-    {
-      "title": "Flexbox / Grid"
-    },
-    {
-      "title": "Scrum / Agile"
     },
     {
       "title": "Javascript"
     },
     {
-      "title": "SASS / SCSS"
-    },
-    {
-      "title": "Gatsby"
+      "title": "CSS + SCSS"
     },
     {
       "title": "GraphQL"
     },
     {
-      "title": "Acquia"
+      "title": "Gatsby"
     },
     {
-      "title": "Twig"
+      "title": "Next.js"
     },
     {
-      "title": "CI/CD"
+      "title": "Git"
     },
     {
-      "title": "AWS"
+      "title": "CI / CD"
     },
     {
-      "title": "git"
+      "title": "Drupal 7/8/9"
+    },
+    {
+      "title": "Storybook"
+    },
+    {
+      "title": "Patternlab"
+    },
+    {
+      "title": "Solutions architecture"
+    },
+    {
+      "title": "Component based development"
+    },
+    {
+      "title": "Headless + decoupled architecture"
     }
   ],
-  "heading_thought": {
-    "title": "Thought leadership",
-    "headingLevel": "h2"
-  },
   "thought_items": [
     {
       "title": "YouTube: Theming with Components - Video Series",

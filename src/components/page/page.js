@@ -11,7 +11,6 @@ export const Page = () => (
   <>
     <div className="page-layout">
       <div className="page-layout__column page-layout__column--1">
-
         <Contact
           description={data.contact.description}
           ctas={data.contact.ctas}
@@ -19,28 +18,37 @@ export const Page = () => (
       </div>
       <div className="page-layout__column page-layout__column--2">
         <Heading
-          title={data.heading_exp.title}
-          headingLevel={data.heading_exp.headingLevel}
+          title="Experience"
+          headingLevel="h2"
         />
         <Timeline jobs={data.jobs} />
         <Heading
-          title={data.heading_logos.title}
-          headingLevel={data.heading.headingLevel}
+          title="A few organizations I've worked with"
+          headingLevel="h2"
         />
         <LogoList items={data.logo_items} />
         <Heading
-          title={data.heading.title}
-          headingLevel={data.heading_skills.headingLevel}
+          title="A few projects I've worked on"
+          headingLevel="h2"
         />
         <List items={data.project_items} />
         <Heading
-          title={data.heading_skills.title}
-          headingLevel={data.heading_skills.headingLevel}
+          title="A mix of management + tech skills"
+          headingLevel="h2"
         />
-        <List items={data.skill_items} />
         <Heading
-          title={data.heading_thought.title}
-          headingLevel={data.heading_thought.headingLevel}
+          title="Management"
+          headingLevel="h3"
+        />
+        <List items={data.mng_skill_items} />
+        <Heading
+          title="Technology"
+          headingLevel="h3"
+        />
+        <List items={data.tech_skill_items} />
+        <Heading
+          title="Thought Leadership"
+          headingLevel="h2"
         />
         <span className="thought-list">
           <List items={data.thought_items} />

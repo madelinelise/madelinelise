@@ -10,10 +10,10 @@ export const Timeline = (props) => {
       <div className="timeline-content">
         <h3 className="timeline-title">{job.title}</h3>
         <div className="timeline-info">
-        <span>{job.dates}</span>
-      </div>
+          <span>{job.dates}</span>
+        </div>
         <h3 className="timeline-company">{job.company}</h3>
-        { job.descs && <List items={job.descs} /> }
+        {job.descs && <List items={job.descs} />}
       </div>
     </li>
   ));

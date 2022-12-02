@@ -45,7 +45,7 @@
 
   &:before {
     content: '';
-    background: $color-carbon-fiber;
+    background: $color-madevergreen;
     border: 3px solid transparent;
     border-radius: 100%;
     display: block;
@@ -80,7 +80,7 @@
 .timeline-item:not(.period):hover {
 
   .timeline-marker:before {
-    background: $color-madevergreen;
+    background: $color-carbon-fiber;
   }
 }
 
@@ -95,7 +95,7 @@
 .timeline-title {
   @include font-ubuntu-bold;
   display: inline;
-  background-color: $color-madevergreen;
+  background-color: $color-carbon-fiber;
   color: $color-white;
   padding: 3px;
   font-size: 1.25rem;
