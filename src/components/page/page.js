@@ -47,7 +47,7 @@ export const Page = () => (
         />
         <List items={data.tech_skill_items} />
         <Heading
-          title="Thought Leadership"
+          title="Contributions + Thought Leadership"
           headingLevel="h2"
         />
         <span className="thought-list">

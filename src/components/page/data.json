@@ -232,7 +232,7 @@
   ],
   "thought_items": [
     {
-      "title": "YouTube: Theming with Components - Video Series",
+      "title": "YouTube Video Series: Theming with Components",
       "url": "https://www.youtube.com/playlist?list=PLu-MxhbnjI9oEF9uR59Sq66_7Pf4guwG1"
     },
     {
@@ -254,6 +254,18 @@
     {
       "title": "Article: Superior experiences with an “edge”",
       "url": "https://www.o3world.com/news/superior-experiences-with-an-edge/"
+    },
+    {
+      "title": "Coursera contributor: Advanced React (I helped write the assesment questions!)",
+      "url": "https://www.coursera.org/learn/advanced-react/home/week/1"
+    },
+    {
+      "title": "Coursera contributor: Introduction to Version Control",
+      "url": "https://www.coursera.org/learn/introduction-to-version-control/home/week/1"
+    },
+    {
+      "title": "Coursera contributor: Introduction to Front-End Development",
+      "url": "https://www.coursera.org/learn/introduction-to-front-end-development/home/week/1"
     }
   ]
 }
