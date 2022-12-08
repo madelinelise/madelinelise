@@ -1,9 +1,3 @@
-## Learn more about me
-My resume is hosted on GitHub Pages, you can check it out here:
-https://madelinelise.github.io
+Hey, I'm Madeline - an Engineering Manager that likes to work with open source technologies and being the real human version of myself for those around me.
 
-or you can play with the code here:
-https://github.com/madelinelise/madelinelise 
-There are two commands worth sharing here, everything else is visible in the `package.json` file.
-To start the project, run `npm run start`
-To run Storybook, run `npm run storybook`
+I like building things & being a people manager as well. You can check out the kinds of things I've worked on at the GitHub Pages version of my resume at https://madelinelise.github.io/resume/.
