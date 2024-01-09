@@ -1,1 +1,2 @@
-Hey, I'm Madeline - an Engineering Manager that likes to make things and hoping to make a positive impact on the world. You can check out the kinds of things I've worked on at the GitHub Pages version of my resume at https://madelinelise.github.io/resumev2/.
+Hey, I'm Madeline - a Software Engineer that likes to make things and hoping to make a positive impact on the world. 
+Most of my work has been on client repos, so you can check out the kinds of things I've worked on my resume at https://madelinelise.github.io/resumev2/.
